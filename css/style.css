@@ -412,7 +412,7 @@ body{
 /* SUBSCRIBE */
 .subscribe { display: flex; align-items: center; }
 .subscribe-form { display: flex; gap: 12px; align-items: center; }
-.subscribe-form input[type="email"] { padding: 12px 14px; border-radius: 8px; border: none; width: 260px; font-size: 15px; }
+.subscribe-form input[type="email"] { padding: 12px 6px; border-radius: 8px; border: none; width: 260px; font-size: 15px; }
 .btn-subscribe { background: var(--accent); color: #000; border: none; padding: 12px 18px; border-radius: 8px; font-weight: 700; cursor: pointer; }
 
 /* BOTTOM */
