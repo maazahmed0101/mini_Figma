@@ -63,35 +63,7 @@
   display: none;
 }
 
-/* 📱 Mobile Responsive */
-@media (max-width: 768px) {
 
-  .desktop-img {
-    display: none;   /* desktop wali image hide */
-  }
-
-  .mobile-img {
-    display: block;  /* mobile me image H1 ke baad show */
-    margin: 20px 0;
-  }
-
-  .text-content h1 {
-    font-size: 28px;
-  }
-}
-@media (max-width:1610px) and (min-width:767px){
-  .okk {
-  margin: 60px;
-  padding: auto;
-}
-}
-@media (max-width:580px) and (min-width:265px){
-  h1{
-   
-    text-align: center;
-     padding-left: 0; /* zaroori hai warna center nahi hoga */
-  }
-}
 /* chatgpt through work */
 body{
   background:#f3f3f3;
@@ -126,18 +98,6 @@ body{
   bottom:0;
 }
 
-/* Responsive */
-@media (max-width:768px){
-  .custom-box{
-    min-height:220px;
-    padding:30px;
-  }
-}
-/* ====== UNIQUE PREFIX CLASSES ====== */
-
-
-
-
 .db-accordion-button:not(.collapsed){
     background:#B9FF66;
     color:#000;
@@ -158,15 +118,7 @@ body{
     box-shadow:none;
 }
 
-/* Mobile responsive */
-@media(max-width:576px){
-    .db-accordion-button{
-        flex-direction:column;
-        align-items:flex-start;
-        gap:10px;
-    }
-}
-/* girg sng==drotprk   */
+
 
 /* /* ===== WRAPPER ===== */
  .dbexact-wrapper{
@@ -255,14 +207,7 @@ body{
     line-height:1.6;
 } 
 
-/* MOBILE */
- @media(max-width:576px){
-    .dbexact-header{
-        flex-direction:column;
-        align-items:flex-start;
-        gap:15px;
-    }
-} 
+
 
 
 
@@ -319,19 +264,6 @@ body{
   object-fit: contain;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .service-card {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-    padding: 25px;
-  }
-
-  .service-img img {
-    width: 90px;
-  }
-}
 /* contact us section */
 .contact-section {
   background: #F3F3F3;
@@ -491,13 +423,4 @@ body{
 .legal { text-align: right; }
 .privacy-link { color: var(--text); text-decoration: underline; display: inline-block; margin-top: 6px; }
 
-/* RESPONSIVE: exact stacking like image */
-@media (max-width: 900px) {
-  .footer-middle { flex-direction: column; align-items: center; text-align: center; }
-  .contact { max-width: 100%; }
-  .subscribe-form input[type="email"] { width: 100%; max-width: 360px; }
-  .footer-top { flex-direction: column; align-items: center; text-align: center; gap: 18px; }
-  .footer-nav ul { flex-wrap: wrap; justify-content: center; gap: 16px; }
-  .footer-bottom { flex-direction: column; align-items: center; text-align: center; }
-  .legal { text-align: center; }
-}
+
