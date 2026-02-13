@@ -272,7 +272,20 @@
 
   </div>
   <!-- NEXT SECTION -->
-  
+  <script>
+    const exactBoxes = document.querySelectorAll(".dbexact-box");
+
+    exactBoxes.forEach(box => {
+      box.addEventListener("click", () => {
+        exactBoxes.forEach(b => {
+          if (b !== box) {
+            b.classList.remove("dbexact-open");
+          }
+        });
+        box.classList.toggle("dbexact-open");
+      });
+    });
+  </script>
 
  
 
